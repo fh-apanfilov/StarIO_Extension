@@ -16,7 +16,7 @@ let package = Package(
     .package(
       name: "StarIO",
       url: "https://github.com/fh-apanfilov/StarIO",
-      exact: "2.9.1"
+      from: "2.9.1"
     )
   ],
   targets: [
