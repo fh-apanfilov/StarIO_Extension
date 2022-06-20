@@ -12,6 +12,13 @@ let package = Package(
         targets: ["StarIO_Extension"]
     )
   ],
+  dependencies: [
+    .package(
+      name: "StarIO",
+      url: "https://github.com/fh-apanfilov/StarIO",
+      "2.9.1"
+    )
+  ],
   targets: [
     .binaryTarget(
       name: "StarIO_Extension",
